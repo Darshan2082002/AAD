@@ -32,7 +32,18 @@ def reconstruct_path(came_from, current):
         total_path.append(current)
     return total_path[::-1]
 
+
 def get_neighbors(node):
+   
+    x, y = node
+    neighbors = []
+    for dx, dy in [(-1,0), (1,0), (0,-1), (0,1)]:
+        nx, ny = x + dx, y + dy
+        if 0 <= nx <= 5 and 0 <= ny <= 5:
+            neighbors.append((nx, ny))
+    return neighbors
+
+# ...existing code...
     
     return []
 if __name__ == "__main__":
