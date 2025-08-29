@@ -43,7 +43,7 @@ def get_neighbors(node):
             neighbors.append((nx, ny))
     return neighbors
 
-# ...existing code...
+
     
     return []
 if __name__ == "__main__":
