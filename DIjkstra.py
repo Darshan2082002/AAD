@@ -6,3 +6,5 @@ def construt(edges,V):
         adj[u].append[v,wt]
         adj[v].append[u,wt]
     return adj
+def dijisktra(V,edges,src):
+    
