@@ -6,7 +6,7 @@ def construct(edges, V):
     for edge in edges:
         u, v, wt = edge
         adj[u].append([v, wt])
-        adj[v].append([u, wt])   # undirected graph
+        adj[v].append([u, wt])   
     return adj
 
 def dijkstra(V, edges, src):
