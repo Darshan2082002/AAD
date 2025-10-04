@@ -33,4 +33,4 @@ if __name__ == "__main__":
 
     result = dijkstra(V, edges, src)
 
-    print("Shortest distances from source:", ' '.join(map(str, result)))
+    print("Shortest distances from source:", '   '.join(map(str, result)))
