@@ -18,7 +18,7 @@ def dijkstra(V, edges, src):
 
     while pq:
         d, u = heapq.heappop(pq)
-        if d > dist[u]:  # Skip outdated entries
+        if d > dist[u]:  
             continue
         for v, weight in adj[u]:
             if dist[v] > dist[u] + weight:
