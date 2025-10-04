@@ -27,8 +27,8 @@ def dijkstra(V, edges, src):
     return dist
 
 if __name__ == "__main__":
-    V = 6
-    src = 1
+    V = 5
+    src = 0
     edges = [[0, 1, 4], [0, 2, 8], [1, 4, 6], [2, 3, 2], [3, 4, 10]]
 
     result = dijkstra(V, edges, src)
