@@ -17,7 +17,7 @@ if __name__ == "__main__":
         [1, INF, INF, 4, 0]
     ]
     
-    floydWarshall(dist)
+    flyod(dist)
     for i in range(len(dist)):
         for j in range(len(dist)):
             print(dist[i][j], end=" ")
