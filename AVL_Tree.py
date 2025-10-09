@@ -6,7 +6,7 @@ class Node:
         self.height=1
 def get_height(root):
     if root is None:
-        return 0
+        return 0   
     return root.height
 def get_balance(root):
     if root is None:
